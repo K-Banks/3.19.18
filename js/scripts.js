@@ -16,3 +16,7 @@ if (bmi > 18, bmi < 25){
 if (bmi > 25) {
   alert("Your BMI is obese");
 }
+
+var celsius = parseInt(prompt("What is the temperature (in Celsius)?"));
+var fahrenheit = (celsius*(9/5))+32;
+alert("The temperature in fahrenheit is: " + fahrenheit);
